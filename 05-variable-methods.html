@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Structure</title>
+
+    <script>
+        const name = "bootleg bob"
+
+        ///length of the strin:
+        const length = name.length
+
+        //case manipulation
+        const lowerCase = name.toLowerCase()
+        const upperCase = name.toUpperCase()
+
+        //replace (only 1)
+        const replace = name.replace('o', 'a')
+        //ALL with regular expression
+        const replaceAll = name.replace(/o/g, 'a')
+
+        //substring
+        const substring = name.substring(2,8)
+
+        //array
+        const toArray = name.split(' ')
+
+        console.log({
+            length: length,
+            lowerCase: lowerCase,
+            upperCase: upperCase,
+            replace: replace,
+            replaceAll: replaceAll,
+            toArray: toArray,
+            substring: substring
+        })
+    </script>
